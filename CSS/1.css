@@ -1,0 +1,154 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  color: #f6f6f3;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+
+  
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: #333;
+}
+
+header a {
+  font-size: 25px;
+  font-weight: bold;
+  color: #f4eeee;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+header nav ul li a.active {
+  color: #df5008;
+  font-weight: bold; 
+  text-decoration: underline; 
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 100px 20px;
+  color: #ffffff; 
+  border-radius: 10px;
+
+}
+
+.home h1 {
+  font-size: 70px;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+  text-shadow: 9px 9px 9px rgba(0, 0, 0, 0.5), 0 0 25px #e72608;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+}
+
+.home p {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); 
+}
+
+.home h1:hover {
+  color: #2a2a28; 
+  text-shadow: 2px 2px 20px rgba(255, 204, 102, 0.8), 0 0 30px rgb(82, 79, 73); 
+}
+
+.home p:hover {
+  color: #ff0000;
+  background: rgba(0, 0, 0, 0.8); 
+  text-shadow: 2px 2px 15px rgba(255, 204, 102, 1), 0 0 30px rgba(255, 204, 102, 0.9); 
+}
+
+
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 50px 20px;
+
+}
+
+.image {
+  background-color: #444;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 250px;
+  text-align: center;
+  color: #fff;
+}
+
+.image img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.image:hover img {
+  transform: scale(1.2);
+}
+.image h2 {
+  font-size: 24px;
+  margin: 15px 0;
+}
+
+.image p {
+  font-size: 20px;
+  padding: 0 10px 20px;
+}
+
+footer {
+  background-color: rgba(210, 50, 50, 0.7);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 3px 0;
+}
+
+footer a {
+  color: #ffcc00; 
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
